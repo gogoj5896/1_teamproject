@@ -16,7 +16,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### 3) 분석의 가설(귀무가설)
  -  즉 우리는 "스타벅스 및 맥도날드가 아파트 근처에 있을 수록 땅값이 비싸다."   **양의 관계**가 있을 것이라고 가정하고 이를 검토하는 것이 아래의 과정이다.
-<br /><br />
+<br />
 <br />
 
 ##  2. 데이터 변수 설명 
@@ -25,7 +25,8 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 |-----------------------|----------------------------------------------|----------------------|-------------|
 | 아파트 실거래가 | 국토 교통부(http://rt.molit.go.kr/) | 전용면적, 가격, 주소 | 6000개 |
 | 편의시설(스타벅스 등) | 각 홈페이지(http://www.istarbucks.co.kr/ 등) | 주소 | 100개 |
-<br /><br />
+
+<br />
 <br />
 
 
@@ -37,7 +38,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/crawl.png?raw=true)
-<br /><br />
+<br />
 <br />
 
 
