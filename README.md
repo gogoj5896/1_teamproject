@@ -49,7 +49,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### (1) 지도형태로 살펴보기 - maplotlib 이용하기
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/fish.png?raw=true)
-- 위와 같이 좌표평면에 그리게 되면 도로 및 지형물 등을 고려하지 못하므로, 파이썬 다른 패키지를 이용해서 시각화 시도!
+- 위와 같이 좌표평면에 그리게 되면 도로 및 지형 등을 고려하지 못하므로, 파이썬 다른 패키지를 이용해서 시각화 시도!
 <br />
 
 ### (2) 지도형태로 살펴보기 - folium package 이용하기
