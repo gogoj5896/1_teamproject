@@ -1,5 +1,6 @@
 
 # <강남 아파트 가격과 스타벅스 및 맥도날드의 관계 분석> 
+- 데이터 시각화 project
 <br />
 
 ## 1. 분석동기 
@@ -39,6 +40,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/crawl.png?raw=true)
+
 <br />
 <br />
 
@@ -48,14 +50,14 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### (1) 지도형태로 살펴보기 - maplotlib 이용하기
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/fish.png?raw=true)
-- 위와 같이 좌표평면에 그리게 되면 도로 및 지형물 등을 고려하지 못하므로, 파이썬 다른 패키지를 이용해서 시각화 시도!
+- 위와 같이 좌표평면에 그리게 되면 도로 및 지형 등을 고려하지 못하므로, 파이썬 다른 패키지를 이용해서 시각화 시도!
 <br />
 
 ### (2) 지도형태로 살펴보기 - folium package 이용하기
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_2.png?raw=true)
-- htmlfile -> gangnam_map.html
+(파일은 폴더 htmlfile -> gangnam_map.html)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_3.png?raw=true)
-- htmlfile -> gangnam_map1.html
+(파일은 폴더 htmlfile -> gangnam_map1.html)
 
 - 2차원 좌표평면에 시각화 하면서 스타벅스의 분포 및 맥도날드의 분포의 패턴은 파악 할 수 있었다.
 - 하지만 이를 통해서 아파트 가격과의 관계를 수치적으로 파악이 불가하므로, 이하에서는 joint plot등으로 관계를 살펴보도록 하겠다.
@@ -63,32 +65,47 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ## (3) 데이터 분포 및 관계의 시각화
 - 아파트 기준으로 가장 가까운 맥도날드 및 스타벅스의 거리를 구하고, 그 거리와 아파트 값의 관계를 살펴본다.
+- 거리 구하는 공식(gps좌표 간 km로 환산)
+<br />
+
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gps_form.png?raw=true)
+
 <br />
 
 ### (3)-1 강남구의 경우
-- distplot
+- distplot(Flexibly plot a univariate distribution of observations.)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/distplot.png?raw=true)
-- joint plot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/joint_plot.png?raw=true)
-- regplot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/regplot.png?raw=true)
-regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
-하지만 위에서 살펴본 jointplot의 p값이 0.1이상이므로 이를 받아들일 수 없다.
+- joint plot(Draw a plot of two variables with bivariate and univariate graphs.)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/7.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
+- regplot(Plot data and a linear regression model fit.)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/10.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/11.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/12.png?raw=true)
+#### regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
+#### 하지만 위에서 살펴본 jointplot의 p값이 0.1이상이므로 이를 받아들일 수 없다.
+
 <br />
-그렇다면 강남과 지리적으로 가까운 다른구의 경우에는 집 값과 맥도날드등의 관계를 추가적으로 살펴보기로 하였다.
-이하에서는 송파구의 경우에 대해서 알아보도록 하겠다.
+
+#### 그렇다면 강남과 지리적으로 가까운 다른구의 경우에는 집 값과 맥도날드등의 관계를 추가적으로 살펴보기로 하였다.
+#### 이하에서는 송파구의 경우에 대해서 알아보도록 하겠다.
+
 <br />
 
 ### (3)-2 송파구의 경우(추가 분석)
 - distplot
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/distplot_2.png?raw=true)
 - joint plot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/joint_plot_2.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/1.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/2.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/3.png?raw=true)
 - regplot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/regplot_2.png?raw=true)
-스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 상관관계가 있다고 볼 수 있다.
-즉 우리가 가정한 스타벅스 및 맥도날드가 주변에 있을 수록 땅 값이 비싸다와 일치하는 지역이다.
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/4.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/5.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/6.png?raw=true)
+#### 스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 상관관계가 있다고 볼 수 있다.
+#### 즉 우리가 가정한 스타벅스 및 맥도날드가 주변에 있을 수록 땅 값이 비싸다와 일치하는 지역이다.
 <br />
 <br />
 
