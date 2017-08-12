@@ -54,9 +54,9 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 ### (2) 지도형태로 살펴보기 - folium package 이용하기
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_2.png?raw=true)
-- htmlfile -> gangnam_map.html
+(파일은 폴더 htmlfile -> gangnam_map.html)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_3.png?raw=true)
-- htmlfile -> gangnam_map1.html
+(파일은 폴더 htmlfile -> gangnam_map1.html)
 
 - 2차원 좌표평면에 시각화 하면서 스타벅스의 분포 및 맥도날드의 분포의 패턴은 파악 할 수 있었다.
 - 하지만 이를 통해서 아파트 가격과의 관계를 수치적으로 파악이 불가하므로, 이하에서는 joint plot등으로 관계를 살펴보도록 하겠다.
