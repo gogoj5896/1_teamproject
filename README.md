@@ -32,32 +32,15 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 
 
+
 ## 3. Data 처리 방법 
 
 ### 3-(1) 아파트 데이터 처리 
-
-### * 강남구 데이터 정리
-table_1 = table[u'평당가격'].groupby([table[u'시군구'],table[u'번지'],table[u"건축년도"]]).mean()
-df = pd.DataFrame(table_1)
-df.head(10)
-
-###  * Google map API 를 APT주소 이용한 GPS 좌표변환
-
-import googlemaps
-gmaps = googlemaps.Client(key="##")
-a_list = []
-b_list = []
-for i in range(len(table)):
-    c = gmaps.geocode(df.index[i][0]+df.index[i][1])[0].get("geometry").get("location")
-    a_list.append(c["lat"])
-    b_list.append(c["lng"])
-df["경도"] = a_list
-df["위도"] = b_list
+* 강남구 데이터 정리
+* Google map API 를 APT주소 이용한 GPS 좌표변환
 
 ### 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
-from bs4 import BeautifulSoup #라이브러리 
-import numpy as np
-import pandas as pd
+
 
 
 ## 4. 시각화 
@@ -67,23 +50,6 @@ import pandas as pd
 ### 아파트 위치와 평당가격을 좌표평면에 그리는 함수
 ###  아파트, 스타벅스, 맥도날드 위치를 지도에 Mapping하기
 
-def main():
-    fig= plt.figure(num=1, figsize=(20,10))
-    plt.figtext(.5,.9,'Analysis of Gangnam gu apt price', fontsize=25, ha="center")
-    ax = fig.add_subplot(111) 
-    fig.subplots_adjust(top=0.85)
-    apt = displayAptGps()
-    mc = display('gangnam_mc_gps', 'purple', 's')
-    star = display('gangnam_star_gps', 'darkgreen', '*')
-    ax.set_xlabel('latitude',fontsize = 15) #xlabel
-    ax.set_ylabel('longitude', fontsize = 15)#ylabel
-    ax.set_facecolor('whitesmoke')
-    plt.legend((apt, mc, star),
-               ('apt price', 'MCDonald','starbucks'), scatterpoints=1,
-               loc='lower left', ncol=3, fontsize=15)
-    plt.grid(False)
-    plt.show()
-main()
 
 ### (2) 지도형태로 살펴보기 - folium package 이용하기
 
@@ -94,7 +60,8 @@ main()
 map1 = folium.Map(location=[37.505,127.06],zoom_start=12,tiles="Stamen Toner")
 map1
 
-![gangnam_1.png](attachment:gangnam_1.png)
+![gangnam_1.png]
+(https://github.com/gogoj5896/1_teamproject/blob/master/gangnam_map.html)
 - 평당가격을 색깔의 진함으로 표현한다.
 
 data = open('11.txt','r+')
