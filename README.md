@@ -1,6 +1,6 @@
-# 1_teamproject
-Starbucks &amp; Mcdonald &amp; Apt price in Gangnam gu
+
 # <강남 아파트 가격과 스타벅스 및 맥도날드의 관계 분석> 
+
 ## 1. 분석동기 
 ### 1) 스타벅스와 맥도날드가 근처에 있으면 집값이 오른다? 
 
@@ -9,3 +9,13 @@ Starbucks &amp; Mcdonald &amp; Apt price in Gangnam gu
  과연 한국에서도 비슷한 현상이 일어났을까 의문이 들어 조사를 시작했습니다.  스타벅스나 맥도날드가 집 근처에 있으면 내 집 가격이 상승할 것인가? 
  
 http://www.koreadaily.com/news/read.asp?art_id=3217847
+
+Image("starmc.jpg")
+
+ 
+
+ ### 2) 강남을 선정하게 된 이유는?
+- 강남은 starbucks 및 mcdonalds등이 다른 구보다 많아서,  아파트 값과 상관관계를 찾아보는 것에 있어서 좋은 data일 것이라고 생각 함 
+
+### 3) 분석의 가설(귀무가설)
+ -  즉 우리는 "스타벅스 및 맥도날드가 아파트 근처에 있을 수록 땅값이 비싸다."   **양의 관계**가 있을 것이라고 가정하고 이를 검토하는 것이 아래의 과정이다.
