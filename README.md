@@ -47,7 +47,22 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ## 4. 시각화 
 
 ### (1) 지도형태로 살펴보기 - maplotlib 이용하기
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/fish.png?raw=true)
+- 위와 같이 좌표평면에 그리게 되면 도로 및 지형물 등을 고려하지 못하므로, 파이썬 다른 패키지를 이용해서 시각화 시도!
+<br />
 
 ### (2) 지도형태로 살펴보기 - folium package 이용하기
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_2.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gangnam_3.png?raw=true)
+- 2차원 좌표평면에 시각화 하면서 스타벅스의 분포 및 맥도날드의 분포의 패턴은 파악 할 수 있었다.
+- 하지만 이를 통해서 아파트 가격과의 관계를  수치적으로 파악이 불가하므로, 이하에서는 joint plot등으로 관계를 살펴보도록 하겠다.
+<br />
 
+## (3) 데이터 분포 및 관계의 시각화
+- 아파트 기준으로 가장 가까운 맥도날드 및 스타벅스의 거리를 구하고, 그 거리와 아파트 값의 관계를 살펴본다.
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gps_form.png?raw=true)
+<br />
 
+(3)-1. 강남의 경우
+- jointplot
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gps_form.png?raw=true
