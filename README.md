@@ -1,6 +1,6 @@
 
 # <강남 아파트 가격과 스타벅스 및 맥도날드의 관계 분석> 
-
+<br />
 ## 1. 분석동기 
 ### 1) 스타벅스와 맥도날드가 근처에 있으면 집값이 오른다? 
 ![starmc](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/starmc.jpg?raw=true)
