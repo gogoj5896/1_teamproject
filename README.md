@@ -11,7 +11,7 @@
 http://www.koreadaily.com/news/read.asp?art_id=3217847
 
 
- ### 2) 강남을 선정하게 된 이유는?
+### 2) 강남을 선정하게 된 이유는?
 - 강남은 starbucks 및 mcdonalds등이 다른 구보다 많아서,  아파트 값과 상관관계를 찾아보는 것에 있어서 좋은 data일 것이라고 생각 함 
 
 ### 3) 분석의 가설(귀무가설)
@@ -24,17 +24,17 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 | 아파트 실거래가 | 국토 교통부(http://rt.molit.go.kr/) | 전용면적, 가격, 주소 | 6000개 |
 | 편의시설(스타벅스 등) | 각 홈페이지(http://www.istarbucks.co.kr/ 등) | 주소 | 100개 |
 
-## 아파트 가격 from 국토부 실거래가 
+### 아파트 가격 from 국토부 실거래가 
 
 국토부는 아파트 실거래가를 공개하고 있습니다. 면적, 계약년월, 가격, 층 수등을 공개 합니다.  
 
-## 스타벅스, 맥도날드 from 각 홈페이지
+### 스타벅스, 맥도날드 from 각 홈페이지
 
 
 
 ## 3. Data 처리 방법 
 
-## 3-(1) 아파트 데이터 처리 
+### 3-(1) 아파트 데이터 처리 
 
 ### * 강남구 데이터 정리
 table_1 = table[u'평당가격'].groupby([table[u'시군구'],table[u'번지'],table[u"건축년도"]]).mean()
@@ -54,7 +54,7 @@ for i in range(len(table)):
 df["경도"] = a_list
 df["위도"] = b_list
 
-## 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
+### 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
 from bs4 import BeautifulSoup #라이브러리 
 import numpy as np
 import pandas as pd
@@ -62,7 +62,7 @@ import pandas as pd
 
 ## 4. 시각화 
 
-## (1) 지도형태로 살펴보기 - maplotlib 이용하기
+### (1) 지도형태로 살펴보기 - maplotlib 이용하기
 
 ### 아파트 위치와 평당가격을 좌표평면에 그리는 함수
 ###  아파트, 스타벅스, 맥도날드 위치를 지도에 Mapping하기
@@ -85,7 +85,7 @@ def main():
     plt.show()
 main()
 
-## (2) 지도형태로 살펴보기 - folium package 이용하기
+### (2) 지도형태로 살펴보기 - folium package 이용하기
 
 - 패키지를 이용해서 강남지역 지도로 띄우기
 - map1이 실행을 안시키면 사진이 안뜨는 경우가 있어서 그 밑에 캡쳐사진을 첨부
