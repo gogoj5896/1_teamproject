@@ -53,6 +53,7 @@ map1 = folium.Map(location=[37.505,127.06],zoom_start=12,tiles="Stamen Toner")
 map1
 
 ![gangnam](https://github.com/gogoj5896/1_teamproject/blob/master/gangnam_1.png?raw=true)<br />
+![a](https://github.com/gogoj5896/1_teamproject/blob/master/gangnam_map.html)<br />
 
 - 평당가격을 색깔의 진함으로 표현한다.
 
