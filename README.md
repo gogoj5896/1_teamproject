@@ -70,25 +70,33 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 - distplot
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/distplot.png?raw=true)
 - joint plot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/joint_plot.png?raw=true)
-- regplot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/regplot.png?raw=true)
-regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
-하지만 위에서 살펴본 jointplot의 p값이 0.1이상이므로 이를 받아들일 수 없다.
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/7.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
+- regplot!
+[pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/10.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/11.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/12.png?raw=true)
+#### regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
+#### 하지만 위에서 살펴본 jointplot의 p값이 0.1이상이므로 이를 받아들일 수 없다.
 <br />
-그렇다면 강남과 지리적으로 가까운 다른구의 경우에는 집 값과 맥도날드등의 관계를 추가적으로 살펴보기로 하였다.
-이하에서는 송파구의 경우에 대해서 알아보도록 하겠다.
+#### 그렇다면 강남과 지리적으로 가까운 다른구의 경우에는 집 값과 맥도날드등의 관계를 추가적으로 살펴보기로 하였다.
+#### 이하에서는 송파구의 경우에 대해서 알아보도록 하겠다.
 <br />
 
 ### (3)-2 송파구의 경우(추가 분석)
 - distplot
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/distplot_2.png?raw=true)
 - joint plot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/joint_plot_2.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/1.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/2.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/3.png?raw=true)
 - regplot
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/regplot_2.png?raw=true)
-스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 상관관계가 있다고 볼 수 있다.
-즉 우리가 가정한 스타벅스 및 맥도날드가 주변에 있을 수록 땅 값이 비싸다와 일치하는 지역이다.
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/4.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/5.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/6.png?raw=true)
+#### 스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 상관관계가 있다고 볼 수 있다.
+#### 즉 우리가 가정한 스타벅스 및 맥도날드가 주변에 있을 수록 땅 값이 비싸다와 일치하는 지역이다.
 <br />
 <br />
 
