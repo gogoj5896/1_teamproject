@@ -17,7 +17,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 - 강남은 starbucks 및 mcdonalds등이 다른 구보다 많아서,  아파트 값과 상관관계를 찾아보는 것에 있어서 좋은 data일 것이라고 생각 함 
 
 ### 3) 분석의 가설(귀무가설)
- -  즉 우리는 "스타벅스 및 맥도날드가 아파트 근처에 있을 수록 땅값이 비싸다."   **양의 관계**가 있을 것이라고 가정하고 이를 검토하는 것이 아래의 과정이다.
+ -  즉 우리는 "스타벅스 및 맥도날드가 아파트 근처에 있을 수록 땅값이 비싸다."   **음의 관계**(거리가 멀수록 아파트 값이 싼)가 있을 것이라고 가정하고 이를 검토하는 것이 아래의 과정이다.
 <br />
 <br />
 
@@ -80,7 +80,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
 
-#### 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나오나 p값이 0.1 나오므로 선형관계가 있다고 볼 수 없다.
+#### 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나오나 p값이 0.1 나오므로 선형 상관관계가 있다고 볼 수 없다.
 
 <br />
 
@@ -100,7 +100,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/4.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/5.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/6.png?raw=true)
-#### 스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 상관관계가 있다고 볼 수 있다.
+#### 스타벅스와의 거리, 맥도날드와의 거리 , 이 둘의 합 모두 음의관계가 나오며 p-value값이 0.01미만으로 나와서 선형 상관관계가 있다고 볼 수 있다.
 #### 즉 우리가 가정한 스타벅스 및 맥도날드가 주변에 있을 수록 땅 값이 비싸다와 일치하는 지역이다.
 <br />
 <br />
