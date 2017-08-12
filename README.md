@@ -3,7 +3,7 @@
 
 ## 1. 분석동기 
 ### 1) 스타벅스와 맥도날드가 근처에 있으면 집값이 오른다? 
-![starmc](https://github.com/gogoj5896/1_teamproject/blob/master/starmc.jpg?raw=true)
+![starmc](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/starmc.jpg?raw=true)
 
 “2015년 3월 CNN머니는  미국 부동산 업체인 질로 (https://www.zillow.com/ )의 조사 결과를 인용해 1997년에서 2013년 사이 스타벅스와 가까이 있는 주택 가격이 평균 96% 상승해 미국 전체 평균인 65%를 앞질렀다고” 보도했습니다. 
 
@@ -34,6 +34,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 * Google map API 를 APT주소 이용한 GPS 좌표변환
 
 ### 3-(2) 크롤링을 이용한 스타벅스 & 맥도날드 gps 좌표
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/crawl.png?raw=true)
 <br /><br />
 
 
