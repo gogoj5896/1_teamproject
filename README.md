@@ -79,12 +79,8 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/7.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
-- regplot(Plot data and a linear regression model fit.)
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/10.png?raw=true)
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/11.png?raw=true)
-![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/12.png?raw=true)
-#### regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
-#### 하지만 위에서 살펴본 jointplot의 p값이 0.1이상이므로 이를 받아들일 수 없다.
+
+#### 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온  p 0.1 나오므로 선형관계가 있다고 볼 수 없다.
 
 <br />
 
@@ -94,13 +90,13 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 <br />
 
 ### (3)-2 송파구의 경우(추가 분석)
-- distplot
+- distplot(Flexibly plot a univariate distribution of observations.)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/distplot_2.png?raw=true)
-- joint plot
+- joint plot(Draw a plot of two variables with bivariate and univariate graphs.)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/1.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/2.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/3.png?raw=true)
-- regplot
+- regplot(Plot data and a linear regression model fit.)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/4.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/5.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/6.png?raw=true)
