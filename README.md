@@ -79,7 +79,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
 - regplot!
-[pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/10.png?raw=true)
+![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/10.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/11.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/12.png?raw=true)
 #### regplot으로 볼 경우에는 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온다. 
