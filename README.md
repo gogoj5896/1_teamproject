@@ -80,7 +80,7 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/8.png?raw=true)
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/9.png?raw=true)
 
-#### 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나온  p 0.1 나오므로 선형관계가 있다고 볼 수 없다.
+#### 우리가 예상한 집 값과 맥도날드 등과의 음의 관계와 반대되는 양의 관계가 나오나 p값이 0.1 나오므로 선형관계가 있다고 볼 수 없다.
 
 <br />
 
