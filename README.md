@@ -66,7 +66,9 @@ http://www.koreadaily.com/news/read.asp?art_id=3217847
 - 아파트 기준으로 가장 가까운 맥도날드 및 스타벅스의 거리를 구하고, 그 거리와 아파트 값의 관계를 살펴본다.
 - 거리 구하는 공식(gps좌표 간 km로 환산)
 <br />
+
 ![pic](https://github.com/gogoj5896/1_teamproject/blob/master/image%20file/gps_form.png?raw=true)
+
 <br />
 
 ### (3)-1 강남구의 경우
